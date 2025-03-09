@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-os.environ["GROQ_API_KEY"] =("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")
+os.environ["GROQ_API_KEY"] =("GROQ_API_KEY")
 
 @cl.on_message
 async def handle_message(message: cl.Message):
