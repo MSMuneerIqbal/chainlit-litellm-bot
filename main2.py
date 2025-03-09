@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-os.environ["GEMINI_API_KEY"] = "AIzaSyAvxUEfZtSOaxxlTZLA62wcjqPHnjTENlM"  # Load API key from .env file
+os.environ["GEMINI_API_KEY"] = "GEMINI_API_KEY"  # Load API key from .env file
 
 @cl.on_message
 async def handle_message(message: cl.Message):
